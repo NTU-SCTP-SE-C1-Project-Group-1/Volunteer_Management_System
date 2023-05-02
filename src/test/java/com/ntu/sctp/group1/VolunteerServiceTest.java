@@ -41,6 +41,7 @@ public class VolunteerServiceTest {
         // check result
         assertNotNull(result);
         assertEquals(volunteer.getName(), result.getName());
+        // assertEquals("Jane Doe", result.getName());
         assertEquals(volunteer.getEmail(), result.getEmail());
         assertEquals(volunteer.getContact(), result.getContact());
     }

@@ -182,14 +182,14 @@ public class Group1Application {
 		person8 = volunteerRepo.save(person8);
 
 		user.setUsername(person.getEmail());
-		user.setUid("aId0fTgOlKdrNpCd6IapWFnBC2D3");
+		user.setUid("aW5GG22r3BWe2FLQeAzBklcBVay1");
 		user.setTokenIsActive(false);
 		user.setVolunteerId(person.getId());
 		user.setRole(Role.USER);
 		userRepo.save(user);
 
 		user2.setUsername(person2.getEmail());
-		user2.setUid("Bq1SrD7WrHY4TNoBIY2Nw4v7K6x1");
+		user2.setUid("LmZrhY7arORfZIGejUDoUA1MbP03");
 		user2.setTokenIsActive(false);
 		user2.setVolunteerId(person2.getId());
 		user2.setRole(Role.USER);
@@ -203,7 +203,7 @@ public class Group1Application {
 		userRepo.save(user3);
 
 		admin.setUsername(person3.getEmail());
-		admin.setUid("YH70F63hN4gx3FgKW5yQJYP14az2");
+		admin.setUid("RgLApwCM4TTyyLdSKAPaFPyveSQ2");
 		admin.setTokenIsActive(false);
 		admin.setVolunteerId(person3.getId());
 		admin.setRole(Role.ADMIN);
